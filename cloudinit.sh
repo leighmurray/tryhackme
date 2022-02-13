@@ -4,6 +4,7 @@ apt upgrade -y
 apt install nmap -y
 apt install openvpn -y
 apt install whois -y
+apt install net-tools -y
 curl -LO https://go.dev/dl/go1.17.6.linux-amd64.tar.gz
 tar -C /usr/local -xvf go1.17.6.linux-amd64.tar.gz
 rm go1.17.6.linux-amd64.tar.gz
